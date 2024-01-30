@@ -6,6 +6,6 @@ export async function handler() {
   
   return {
     statusCode: 200,
-    body: geoData,
+    body: JSON.stringify(geoData),
   };
 }
